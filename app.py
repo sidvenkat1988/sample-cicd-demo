@@ -3,7 +3,7 @@ Simple Flask API that uses psycopg2 (requires system libraries)
 """
 from flask import Flask, jsonify
 import psycopg2
-import panda as pd
+import requests
 #Delete a comment
 
 app = Flask(__name__)
