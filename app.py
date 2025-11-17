@@ -4,7 +4,7 @@ Simple Flask API that uses psycopg2 (requires system libraries)
 from flask import Flask, jsonify
 import psycopg2
 import requests
-#Delete a comment
+#add a comment
 
 app = Flask(__name__)
 
